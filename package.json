@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.ts",
   "dependencies": {
+    "gsap": "^3.8.0",
     "three": "^0.133.1"
   },
   "devDependencies": {
