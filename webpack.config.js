@@ -36,7 +36,7 @@ module.exports = {
   output: {
     filename: 'build.js',
     assetModuleFilename: 'images/[name][ext]',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'docs')
   },
   plugins: [
     new HtmlWebpackPlugin({
