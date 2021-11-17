@@ -18,7 +18,7 @@ section:last-of-type {
   height: 150vh;
 }
 
-section:last-of-type h1{
+section:last-of-type h1 {
   bottom: 50%;
 }
 
@@ -33,4 +33,11 @@ h1 {
 
 canvas {
   position: fixed;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin: 0.5em;
+  opacity: .5;
 }
