@@ -35,7 +35,7 @@ module.exports = {
   },
   output: {
     filename: 'build.js',
-    assetModuleFilename: 'images/[name][ext]',
+    assetModuleFilename: '[name][ext]',
     path: path.resolve(__dirname, 'docs')
   },
   plugins: [
