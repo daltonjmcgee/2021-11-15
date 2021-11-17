@@ -51,7 +51,7 @@ const particles: BufferGeometry = new BufferGeometry();
 particles.setAttribute('position', new Float32BufferAttribute(sphereVertices, 3))
 
 // Load disc.png from image assets
-const disc = new TextureLoader().load('/images/disc.png');
+const disc = new TextureLoader().load('/disc.png');
 
 // Create a material for the particles and set config.
 const particlesMaterial: PointsMaterial = new PointsMaterial({
