@@ -1,3 +1,36 @@
 body {
   margin: 0;
 }
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font-family: sans-serif;
+}
+
+section:first-of-type h1 {
+  bottom: 70%;
+}
+
+section:last-of-type {
+  height: 150vh;
+}
+
+section:last-of-type h1{
+  bottom: 50%;
+}
+
+h1 {
+  position: absolute;
+  bottom: 33%;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+
+canvas {
+  position: fixed;
+}
