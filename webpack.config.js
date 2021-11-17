@@ -34,8 +34,8 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.js'],
   },
   output: {
-    filename: 'build.js',
-    assetModuleFilename: '[name][ext]',
+    filename: '[hash].js',
+    assetModuleFilename: '[hash][ext]',
     path: path.resolve(__dirname, 'docs')
   },
   plugins: [
