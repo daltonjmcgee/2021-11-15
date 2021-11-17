@@ -35,7 +35,7 @@ module.exports = {
   },
   output: {
     filename: '[hash].js',
-    assetModuleFilename: '[hash][ext]',
+    assetModuleFilename: '[name][ext]',
     path: path.resolve(__dirname, 'docs')
   },
   plugins: [
